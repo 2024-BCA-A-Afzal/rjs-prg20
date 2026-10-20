@@ -1,5 +1,6 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 function BlogLayout() {
   return (
@@ -10,6 +11,7 @@ function BlogLayout() {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/blog">Blog</Link>
+          <Link to="/blog">Visit Blog</Link>
         </nav>
       </header>
 
